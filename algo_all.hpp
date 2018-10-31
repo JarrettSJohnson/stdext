@@ -12,8 +12,7 @@ inline auto
 
 _emplace_and_step(InputIt it, InputIt end, std::vector<T> &vec) {
   if (it != end) {
-    vec.emplace_back(*it);
-    it++;
+    vec.emplace_back(*it++);
   }
   return it;
 }
