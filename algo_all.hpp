@@ -130,4 +130,4 @@ find_all_if_not(const Container &container, UnaryPredicate p) {
   return find_all_if_not(container.begin(), container.end(), p);
 }
 
-}; // namespace algoall
+}; // namespace stdext
